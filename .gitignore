@@ -1,0 +1,19 @@
+cat > .gitignore << 'EOF'
+# Python
+__pycache__/
+*.pyc
+
+# Environments
+.venv/
+venv/
+env/
+
+# OS files
+.DS_Store
+
+# Streamlit
+.streamlit/
+
+# Secrets
+.env
+EOF
